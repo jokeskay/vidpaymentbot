@@ -63,7 +63,7 @@ def start_without_shipping_callback(bot, update):
     start_parameter = "test-payment"
     currency = "USD"
     # price in dollars
-    price = 1
+    price = 75
     # price * 100 so as to include 2 d.p.
     prices = [LabeledPrice("Test", price * 100)]
 
